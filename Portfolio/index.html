@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="logo" id="logo">
+      <img src="assets/glasses.jpg" alt="Logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#logo">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#projects-section">Projects</a></li>
+      <li><a href="#recommendation-section">Recommendations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>I’m Deependra Kumar<br><span>Front-end</span> Developer</h1>
+        <p>
+          Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Et, Volutpat Feugiat
+          Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
+        </p>
+        <button class="hire-btn">HIRE ME →</button>
+      </div>
+      <div class="hero-image">
+        <img src="assets/1.png" alt="Developer Illustration">
+      </div>
+    </div>
+
+    <div class="decor yellow-circle"></div>
+    <div class="decor yellow-circle-leg"></div>
+    <div class="decor green-circle-top"></div>
+    <div class="decor blue-square"></div>
+    <div class="decor green-circle-bottom"></div>
+    <div class="decor red-triangle"></div>
+    <div class="decor white-triangle"></div>
+    <div class="decor yellow-diamond"></div>
+
+  </header>
+
+  <section class="skills" id="skills">
+    <h2>Skills & Languages</h2>
+    <button id="openModalBtn" class="cta-btn">Add Skill</button>
+  </section>
+  <div id="customModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <h3>Add Skill</h3>
+      <input type="text" placeholder="Skill Name" />
+      <button class="cta-btn" id="cancelBtn">Add Skill</button>
+      <button class="cta-btn" id="cancel">Cancel</button>
+    </div>
+  </div>
+
+  <section id="projects-section" class="projects-section">
+    <div class="projects-container">
+      <h2 class="projects-title">Projects</h2>
+      <div class="pro">
+        <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia </p>
+        <p>Consequat Duis Enim Velit Mollit.Lorem Ipsum </p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Project 1">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>Typescript</span>
+              <span>React.Js</span>
+              <span>Next.Js</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project2.jpg" alt="Project 2">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>Typescript</span>
+              <span>React.Js</span>
+              <span>Next.Js</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project3.jpg" alt="Project 3">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project4.jpg" alt="Project 4">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>Typescript</span>
+              <span>React.Js</span>
+              <span>Next.Js</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Project 5">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>Typescript</span>
+              <span>React.Js</span>
+              <span>Next.Js</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/project5.jpg" alt="Project 6">
+          <div class="project-content">
+            <h3>How To Make Flyer Design</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit Awd And Lorem Ipsum...</p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>MongoDB</span>
+              <span>React.Js</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <div id="recommendation-section" class="recommendation-section">
+    <h2>Recommendations</h2>
+    <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. </br>Velit Officia Consequat Duis Enim
+      Velit Mollit. Lorem Ipsum</p>
+    <div class="slider-container">
+      <div class="slide-track" id="sliderTrack">
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation1.jpeg" alt="James">
+            <div class="user-details">
+              <strong>James Gouse</strong>
+              Graphic Designer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Amazing Work!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation2.jpeg" alt="Tiana">
+            <div class="user-details">
+              <strong>Tiana Philips</strong>
+              Photographer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation3.jpeg" alt="Talan">
+            <div class="user-details">
+              <strong>Talan Westervelt</strong>
+              Business Man
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Top Service!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation4.jpeg" alt="Anna">
+            <div class="user-details">
+              <strong>Anna R</strong>
+              Developer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Exceptional!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation5.jpeg" alt="Liam">
+            <div class="user-details">
+              <strong>Liam J</strong>
+              UI Designer
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="stars">★★★★★</div>
+          <h3>Exceptional!</h3>
+          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
+            Morbi.</p>
+          <div class="user">
+            <img src="assets/recommendation5.jpeg" alt="Liam">
+            <div class="user-details">
+              <strong>Liam J</strong>
+              UI Designer
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+  <!-- Contact Section -->
+  <div class="contact-section" id="contact">
+
+    <div class="form-container">
+      <h2>Leave ME Your Info</h2>
+      <input type="text" placeholder="Your Full Name ( Required )" />
+      <input type="email" placeholder="Your Email ( Required )" />
+      <input type="text" placeholder="Subject" />
+      <button class="cta1-btn">Send Message</button>
+    </div>
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <div class="info-box">
+        <div class="icon-circle">📍</div>
+        <div class="info-details">
+          <div><span>Country:</span> India</div>
+          <div><span>City:</span> Delhi</div>
+          <div><span>Streat:</span> XYZ</div>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="icon-circle">✉️</div>
+        <div class="info-details">
+          <div><span>Email:</span> vi56ka78sh90@Gmail.Com</div>
+          <div><span>Skype:</span> @name</div>
+          <div><span>Telegram:</span> @name</div>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="icon-circle">📞</div>
+        <div class="info-details">
+          <div><span>Support Services:</span>12345</div>
+          <div><span>Office:</span>1234567890</div>
+          <div><span>Personal:</span>9708890090</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+
+    <div class="top-logos">
+      <img src="assets/logo1.png" alt="Logo 1" />
+      <img src="assets/logo2.png" alt="Logo 2" />
+      <img src="assets/logo3.png" alt="Logo 3" />
+      <img src="assets/logo4.png" alt="Logo 4" />
+    </div>
+
+    <div class="glasses">
+      <img src="assets/glasses.jpg" alt="Main Logo" />
+    </div>
+    <div class="footer-main">
+   <div class="ratings">
+        <div>
+          <img src="assets/lorem-icon.png" /><br>
+          <span>4.5/5 Rating On Lorem</span>
+        </div>
+        <div>
+          <img src="assets/ipsum-icon.png" /><br>
+          <span>9/10 Rating On Ipsum</span>
+        </div>
+        <div>
+          <img src="assets/dorel-icon.png" /><br>
+          <span>4.5/5 Rating On Dorel</span>
+        </div>
+      </div>
+      <div class="links">
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Projects</a>
+        <a href="#">Recommendations</a>
+      </div>
+
+      <div class="portfolio">
+        <h4>Portfolio</h4>
+        <a href="#">Frontend Development</a>
+        <a href="#">Backend Development</a>
+        <a href="#">Website Design</a>
+        <a href="#">Machine Learning</a>
+        <a href="#">Problem Solving & DSA</a>
+      </div>
+
+      <div class="social">
+        <h4>Connect</h4>
+        <a href="#"><img src="assets/linkedin.png" /></a>
+        <a href="#"><img src="assets/instagram.png" /></a>
+        <a href="#"><img src="assets/facebook.png" /></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2025 Copyright, All Right Reserved</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
